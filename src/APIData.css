@@ -1,0 +1,64 @@
+ *{
+    text-align: center;
+    color: black;
+    background-color: black;
+    font-weight: bold;
+
+
+}
+h1{
+    color: #ffffff;
+    font-family: 'Luxurious Roman', cursive;
+    
+}
+
+    /* Table Styling */
+table {
+    padding: 2%;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: center;  
+}
+
+/* Table Header Styling */
+th {
+    background-color: 	#19D3DA;
+    font-variant: small-caps; 
+    font-size: 100%;
+    color: black;
+    line-height: 40px; 
+    border-radius: 7px 7px 7px 7px; 
+    border-bottom: 2px solid #000000;
+    text-align: center;
+ 
+}
+
+/*Make the table text in two columns to the right centered*/
+th, tr ,td {
+    text-align: center;
+}
+
+
+/* Set opacity of table rows*/
+tr td {
+    opacity: 1;
+    border-radius: 3px 3px 3px 3px; 
+}
+
+/*Change opacity of table rows when hovered over*/
+tr:hover td {
+    opacity: 0.6;
+    color: black;
+    font-weight: 50cm;
+    font-size:100%;
+    line-height: 80px;
+}
+
+/*Styling the table cells*/
+td {
+    background-color: #ffffff;
+    font-size: 90%;
+    border-bottom: 2px solid #000000;
+}
